@@ -7,7 +7,7 @@ setwd("/your/path/to/your/data/")
 # Download the data from here: https://ceprdata.org/wp-content/acs/data/cepr_acs_2019_dmv.csv.zip
 # Data documentation can be found here: 
     ## Variable names and descriptions: https://ceprdata.org/wp-content/acs/vardesc/cepr_acs_2019_varlist.log
-    ## Variable value labels: https://ceprdata.org/wp-content/acs/vardesc/ccepr_acs_2019_varlabels.log
+    ## Variable value labels: https://ceprdata.org/wp-content/acs/vardesc/cepr_acs_2019_varlabels.log
     ## Stata program files used to create extracts: https://ceprdata.org/acs-uniform-data-extracts/acs-programs/
     ### Note that the documentation is for the full 2019 ACS 1-year sample, 
         #### but the data we are working with today only includes MD, DC, and VA. 
