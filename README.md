@@ -7,4 +7,4 @@ Download the data [here](https://ceprdata.org/wp-content/acs/data/cepr_acs_2019_
 Source: [CEPRdata](https://ceprdata.org/) extract of the 2019 1-Year American Community Survey Public Use Microdata Sample.
 
 
-For this exercise, our sample will only include respondents from Maryland, Virginia, and the District of Columbia.
+To keep the file from being unwieldy for this exercise, the sample has been restricted to respondents from Maryland, Virginia, and the District of Columbia.
