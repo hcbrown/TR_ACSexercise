@@ -1,0 +1,803 @@
+-------------------------------------------------------------------------
+      name:  <unnamed>
+       log:  /Users/glooper/Dropbox (CEPR)/Data/CEPRdata/ACS/ceprdata/var
+> desc/cepr_acs_2019_varlist.log
+  log type:  text
+ opened on:  26 Mar 2021, 18:12:03
+
+. describe, fullnames
+
+Contains data from cepr_acs_2019.dta
+  obs:     3,359,704                          CEPR ACS, Version 1.6,
+                                                2019
+ vars:           509                          2 Mar 2021 21:26
+ size: 2,741,518,464                          
+-------------------------------------------------------------------------
+              storage   display    value
+variable name   type    format     label      variable label
+-------------------------------------------------------------------------
+year            int     %8.0g                 Year
+serialno        str13   %13s                * Household ID
+sporder         byte    %8.0g               * Person Number
+resmode         byte    %9.0g      resmode  * Response mode
+hsgwgt          int     %8.0g               * Housing weight
+wgtp1           int     %8.0g                 Housing weight replicate 1
+wgtp2           int     %8.0g                 Housing weight replicate 2
+wgtp3           int     %8.0g                 Housing weight replicate 3
+wgtp4           int     %8.0g                 Housing weight replicate 4
+wgtp5           int     %8.0g                 Housing weight replicate 5
+wgtp6           int     %8.0g                 Housing weight replicate 6
+wgtp7           int     %8.0g                 Housing weight replicate 7
+wgtp8           int     %8.0g                 Housing weight replicate 8
+wgtp9           int     %8.0g                 Housing weight replicate 9
+wgtp10          int     %8.0g                 Housing weight replicate 10
+wgtp11          int     %8.0g                 Housing weight replicate 11
+wgtp12          int     %8.0g                 Housing weight replicate 12
+wgtp13          int     %8.0g                 Housing weight replicate 13
+wgtp14          int     %8.0g                 Housing weight replicate 14
+wgtp15          int     %8.0g                 Housing weight replicate 15
+wgtp16          int     %8.0g                 Housing weight replicate 16
+wgtp17          int     %8.0g                 Housing weight replicate 17
+wgtp18          int     %8.0g                 Housing weight replicate 18
+wgtp19          int     %8.0g                 Housing weight replicate 19
+wgtp20          int     %8.0g                 Housing weight replicate 20
+wgtp21          int     %8.0g                 Housing weight replicate 21
+wgtp22          int     %8.0g                 Housing weight replicate 22
+wgtp23          int     %8.0g                 Housing weight replicate 23
+wgtp24          int     %8.0g                 Housing weight replicate 24
+wgtp25          int     %8.0g                 Housing weight replicate 25
+wgtp26          int     %8.0g                 Housing weight replicate 26
+wgtp27          int     %8.0g                 Housing weight replicate 27
+wgtp28          int     %8.0g                 Housing weight replicate 28
+wgtp29          int     %8.0g                 Housing weight replicate 29
+wgtp30          int     %8.0g                 Housing weight replicate 30
+wgtp31          int     %8.0g                 Housing weight replicate 31
+wgtp32          int     %8.0g                 Housing weight replicate 32
+wgtp33          int     %8.0g                 Housing weight replicate 33
+wgtp34          int     %8.0g                 Housing weight replicate 34
+wgtp35          int     %8.0g                 Housing weight replicate 35
+wgtp36          int     %8.0g                 Housing weight replicate 36
+wgtp37          int     %8.0g                 Housing weight replicate 37
+wgtp38          int     %8.0g                 Housing weight replicate 38
+wgtp39          int     %8.0g                 Housing weight replicate 39
+wgtp40          int     %8.0g                 Housing weight replicate 40
+wgtp41          int     %8.0g                 Housing weight replicate 41
+wgtp42          int     %8.0g                 Housing weight replicate 42
+wgtp43          int     %8.0g                 Housing weight replicate 43
+wgtp44          int     %8.0g                 Housing weight replicate 44
+wgtp45          int     %8.0g                 Housing weight replicate 45
+wgtp46          int     %8.0g                 Housing weight replicate 46
+wgtp47          int     %8.0g                 Housing weight replicate 47
+wgtp48          int     %8.0g                 Housing weight replicate 48
+wgtp49          int     %8.0g                 Housing weight replicate 49
+wgtp50          int     %8.0g                 Housing weight replicate 50
+wgtp51          int     %8.0g                 Housing weight replicate 51
+wgtp52          int     %8.0g                 Housing weight replicate 52
+wgtp53          int     %8.0g                 Housing weight replicate 53
+wgtp54          int     %8.0g                 Housing weight replicate 54
+wgtp55          int     %8.0g                 Housing weight replicate 55
+wgtp56          int     %8.0g                 Housing weight replicate 56
+wgtp57          int     %8.0g                 Housing weight replicate 57
+wgtp58          int     %8.0g                 Housing weight replicate 58
+wgtp59          int     %8.0g                 Housing weight replicate 59
+wgtp60          int     %8.0g                 Housing weight replicate 60
+wgtp61          int     %8.0g                 Housing weight replicate 61
+wgtp62          int     %8.0g                 Housing weight replicate 62
+wgtp63          int     %8.0g                 Housing weight replicate 63
+wgtp64          int     %8.0g                 Housing weight replicate 64
+wgtp65          int     %8.0g                 Housing weight replicate 65
+wgtp66          int     %8.0g                 Housing weight replicate 66
+wgtp67          int     %8.0g                 Housing weight replicate 67
+wgtp68          int     %8.0g                 Housing weight replicate 68
+wgtp69          int     %8.0g                 Housing weight replicate 69
+wgtp70          int     %8.0g                 Housing weight replicate 70
+wgtp71          int     %8.0g                 Housing weight replicate 71
+wgtp72          int     %8.0g                 Housing weight replicate 72
+wgtp73          int     %8.0g                 Housing weight replicate 73
+wgtp74          int     %8.0g                 Housing weight replicate 74
+wgtp75          int     %8.0g                 Housing weight replicate 75
+wgtp76          int     %8.0g                 Housing weight replicate 76
+wgtp77          int     %8.0g                 Housing weight replicate 77
+wgtp78          int     %8.0g                 Housing weight replicate 78
+wgtp79          int     %8.0g                 Housing weight replicate 79
+wgtp80          int     %8.0g                 Housing weight replicate 80
+perwgt          int     %8.0g               * Person weight
+pwgtp1          int     %8.0g                 Person's weight replicate 1
+pwgtp2          int     %8.0g                 Person's weight replicate 2
+pwgtp3          int     %8.0g                 Person's weight replicate 3
+pwgtp4          int     %8.0g                 Person's weight replicate 4
+pwgtp5          int     %8.0g                 Person's weight replicate 5
+pwgtp6          int     %8.0g                 Person's weight replicate 6
+pwgtp7          int     %8.0g                 Person's weight replicate 7
+pwgtp8          int     %8.0g                 Person's weight replicate 8
+pwgtp9          int     %8.0g                 Person's weight replicate 9
+pwgtp10         int     %8.0g                 Person's weight replicate
+                                                10
+pwgtp11         int     %8.0g                 Person's weight replicate
+                                                11
+pwgtp12         int     %8.0g                 Person's weight replicate
+                                                12
+pwgtp13         int     %8.0g                 Person's weight replicate
+                                                13
+pwgtp14         int     %8.0g                 Person's weight replicate
+                                                14
+pwgtp15         int     %8.0g                 Person's weight replicate
+                                                15
+pwgtp16         int     %8.0g                 Person's weight replicate
+                                                16
+pwgtp17         int     %8.0g                 Person's weight replicate
+                                                17
+pwgtp18         int     %8.0g                 Person's weight replicate
+                                                18
+pwgtp19         int     %8.0g                 Person's weight replicate
+                                                19
+pwgtp20         int     %8.0g                 Person's weight replicate
+                                                20
+pwgtp21         int     %8.0g                 Person's weight replicate
+                                                21
+pwgtp22         int     %8.0g                 Person's weight replicate
+                                                22
+pwgtp23         int     %8.0g                 Person's weight replicate
+                                                23
+pwgtp24         int     %8.0g                 Person's weight replicate
+                                                24
+pwgtp25         int     %8.0g                 Person's weight replicate
+                                                25
+pwgtp26         int     %8.0g                 Person's weight replicate
+                                                26
+pwgtp27         int     %8.0g                 Person's weight replicate
+                                                27
+pwgtp28         int     %8.0g                 Person's weight replicate
+                                                28
+pwgtp29         int     %8.0g                 Person's weight replicate
+                                                29
+pwgtp30         int     %8.0g                 Person's weight replicate
+                                                30
+pwgtp31         int     %8.0g                 Person's weight replicate
+                                                31
+pwgtp32         int     %8.0g                 Person's weight replicate
+                                                32
+pwgtp33         int     %8.0g                 Person's weight replicate
+                                                33
+pwgtp34         int     %8.0g                 Person's weight replicate
+                                                34
+pwgtp35         int     %8.0g                 Person's weight replicate
+                                                35
+pwgtp36         int     %8.0g                 Person's weight replicate
+                                                36
+pwgtp37         int     %8.0g                 Person's weight replicate
+                                                37
+pwgtp38         int     %8.0g                 Person's weight replicate
+                                                38
+pwgtp39         int     %8.0g                 Person's weight replicate
+                                                39
+pwgtp40         int     %8.0g                 Person's weight replicate
+                                                40
+pwgtp41         int     %8.0g                 Person's weight replicate
+                                                41
+pwgtp42         int     %8.0g                 Person's weight replicate
+                                                42
+pwgtp43         int     %8.0g                 Person's weight replicate
+                                                43
+pwgtp44         int     %8.0g                 Person's weight replicate
+                                                44
+pwgtp45         int     %8.0g                 Person's weight replicate
+                                                45
+pwgtp46         int     %8.0g                 Person's weight replicate
+                                                46
+pwgtp47         int     %8.0g                 Person's weight replicate
+                                                47
+pwgtp48         int     %8.0g                 Person's weight replicate
+                                                48
+pwgtp49         int     %8.0g                 Person's weight replicate
+                                                49
+pwgtp50         int     %8.0g                 Person's weight replicate
+                                                50
+pwgtp51         int     %8.0g                 Person's weight replicate
+                                                51
+pwgtp52         int     %8.0g                 Person's weight replicate
+                                                52
+pwgtp53         int     %8.0g                 Person's weight replicate
+                                                53
+pwgtp54         int     %8.0g                 Person's weight replicate
+                                                54
+pwgtp55         int     %8.0g                 Person's weight replicate
+                                                55
+pwgtp56         int     %8.0g                 Person's weight replicate
+                                                56
+pwgtp57         int     %8.0g                 Person's weight replicate
+                                                57
+pwgtp58         int     %8.0g                 Person's weight replicate
+                                                58
+pwgtp59         int     %8.0g                 Person's weight replicate
+                                                59
+pwgtp60         int     %8.0g                 Person's weight replicate
+                                                60
+pwgtp61         int     %8.0g                 Person's weight replicate
+                                                61
+pwgtp62         int     %8.0g                 Person's weight replicate
+                                                62
+pwgtp63         int     %8.0g                 Person's weight replicate
+                                                63
+pwgtp64         int     %8.0g                 Person's weight replicate
+                                                64
+pwgtp65         int     %8.0g                 Person's weight replicate
+                                                65
+pwgtp66         int     %8.0g                 Person's weight replicate
+                                                66
+pwgtp67         int     %8.0g                 Person's weight replicate
+                                                67
+pwgtp68         int     %8.0g                 Person's weight replicate
+                                                68
+pwgtp69         int     %8.0g                 Person's weight replicate
+                                                69
+pwgtp70         int     %8.0g                 Person's weight replicate
+                                                70
+pwgtp71         int     %8.0g                 Person's weight replicate
+                                                71
+pwgtp72         int     %8.0g                 Person's weight replicate
+                                                72
+pwgtp73         int     %8.0g                 Person's weight replicate
+                                                73
+pwgtp74         int     %8.0g                 Person's weight replicate
+                                                74
+pwgtp75         int     %8.0g                 Person's weight replicate
+                                                75
+pwgtp76         int     %8.0g                 Person's weight replicate
+                                                76
+pwgtp77         int     %8.0g                 Person's weight replicate
+                                                77
+pwgtp78         int     %8.0g                 Person's weight replicate
+                                                78
+pwgtp79         int     %8.0g                 Person's weight replicate
+                                                79
+pwgtp80         int     %8.0g                 Person's weight replicate
+                                                80
+region          byte    %11.0g     region   * Region
+division        byte    %8.0g      division * Division
+state           byte    %20.0g     state    * State (residence)
+puma00          byte    %9.0g               * PUMA (2000 census
+                                                boundaries)
+puma10          float   %9.0g               * PUMA (2010 census
+                                                boundaries)
+adj_h           byte    %9.0g               * Adjustment Factor - Housing
+type            byte    %31.0g     type     * Housing type
+vacant          byte    %8.0g      noyes    * Vacant unit
+acr             byte    %11.0g     acr      * Lot size (acres)
+ags             byte    %10.0g     ags      * Sales of ag products ($/Yr)
+bath            byte    %8.0g      noyes    * Has bath or shower
+bdsp            byte    %8.0g      bdsp     * Number of bedrooms
+bld             byte    %25.0g     bld      * Units in structure
+bus             byte    %9.0g      noyes    * Business or medical office
+                                                on property
+conp_adj        int     %9.0g               * Condo fee adj ($/month)
+elep_adj        int     %9.0g               * Electricity adj ($/month)
+fulp_adj        int     %9.0g               * Other fuel adj ($/month)
+gasp_adj        int     %9.0g               * Natural gas adj ($/month)
+hfl             byte    %24.0g     hfl      * Heating fuel type
+insp_adj        int     %9.0g               * Fire/hazard/flood insurance
+                                                adj ($/month)
+mhp_adj         int     %9.0g               * Mobile home costs adj
+                                                ($/month)
+mrgi            byte    %8.0g      noyes    * Mortgage payment incl
+                                                fire/hazard/flood
+                                                insurance
+mrgp_adj        int     %9.0g               * Mortgage payment adj
+                                                ($/month)
+mrgt            byte    %8.0g      noyes    * Mortgage payment incl real
+                                                estate taxes
+mrgx            byte    %39.0g     mrgx     * Mortgage status
+refr            byte    %8.0g      noyes    * Refrigerator
+rmsp            byte    %8.0g      rmsp     * Number of rooms
+rntm            byte    %8.0g      noyes    * Meals included in rent
+rntp_adj        int     %9.0g               * Rent adj ($/month)
+rwat            byte    %8.0g      noyes    * Hot and cold running water
+sink            byte    %8.0g      noyes    * Sink with faucet
+smp_adj         int     %9.0g               * 2nd mortgage payment adj
+                                                ($/month)
+stove           byte    %8.0g      noyes    * Stove or range
+tel             byte    %8.0g      noyes    * Telephone in unit
+ten             byte    %32.0g     ten      * Housing tenure
+hmown           byte    %8.0g      noyes    * Home ownership
+hmrnt           byte    %8.0g      noyes    * Renter status
+toilet          byte    %8.0g      noyes    * Flush toilet
+vacs            byte    %40.0g     vacs     * Vacancy status
+value           byte    %17.0g     value    * Property value ($)
+value08_adj     float   %9.0g               * Property Value adj
+watp_adj        int     %9.0g               * Water adj ($/month)
+ybl08           byte    %15.0g     ybl08    * Year structure first built
+ybl05           byte    %15.0g     ybl05    * Year structure first built
+ybl_all         byte    %15.0g     ybl_all    Year structure first built
+grntp_adj       int     %9.0g               * Gross rent adj ($/month)
+kitchen         byte    %8.0g      noyes    * Complete kitchen
+mv              byte    %8.0g      mv       * How long living here
+                                                (years)
+plumbing        byte    %8.0g      noyes    * Complete plumbing
+smocp_adj       int     %9.0g               * Selected monthly owner
+                                                costs adj ($/month)
+smx             byte    %24.0g     smx      * 2nd mortgage, HEL status
+srnt            byte    %8.0g      noyes    * Specified rent unit
+sval            byte    %8.0g      noyes    * Specified value owner unit
+taxp_amt        int     %9.0g               * Property Tax, ($/Yr) -
+                                                unbracketed
+taxp            byte    %9.0g               * Property Tax, ($/Yr) -
+                                                bracketed
+veh             byte    %8.0g      veh      * Vehicles
+access          byte    %8.0g      noyes    * Internet access
+broadbnd        byte    %8.0g      noyes    * Mobile broadband plan
+compothx        byte    %8.0g      noyes    * Other computer equipment
+dialup          byte    %8.0g      noyes    * Dial-up service
+dsl             byte    %8.0g      noyes    * DSL service
+fiberop         byte    %8.0g      noyes    * Fiber optic Internet
+                                                service
+handheld        byte    %8.0g      noyes    * Handheld computer
+laptop          byte    %8.0g      noyes    * Laptop, desktop, notebook
+                                                computer
+modem           byte    %8.0g      noyes    * Cable Internet service
+hispeed         byte    %8.0g      noyes    * Broadband Internet service
+                                                such as cable, fiber
+                                                optic, or DSL
+smartphone      byte    %8.0g      noyes    * Smartphone
+tablet          byte    %8.0g      noyes    * Tablet or other portable
+                                                wireless computer
+othsvcex        byte    %8.0g      noyes    * Other Internet service
+satellite       byte    %8.0g      noyes    * Satellite Internet service
+age             byte    %8.0g               * Age
+female          byte    %8.0g      noyes    * Female
+rac1p           byte    %45.0g     rac1p    * Race/Ethnicity
+rac2p2005       byte    %72.0g     rac2p2005
+                                            * Race/Ethnicity recode
+                                                (2005-2011)
+rac2p2012       byte    %54.0g     rac2p2012
+                                            * Race/Ethnicity recode
+                                                (2012-2019)
+rac3p2005       byte    %160.0g    rac3p2005
+                                            * Race/Ethnicity recode alt
+                                                (2005-2011)
+rac3p2012       byte    %184.0g    rac3p2012
+                                            * Race/Ethnicity recode alt
+                                                (2012-2019)
+wbho            byte    %8.0g      wbho     * Race
+wbhao           byte    %8.0g      wbhao    * Race/Ethnicity, incl. Asian
+wbhapo          byte    %15.0g     wbhapo   * Race/Ethnicity, incl. AAPI
+wbhapom         byte    %21.0g     wbhapom  * Race, incl. AAPI and Mixed
+aapi            byte    %8.0g               * AAPI alone
+asian           byte    %8.0g      noyes    * Asian alone
+asian_d2005     byte    %27.0g     asian_d2005
+                                            * Asian-detailed (2005-2011)
+asian_d2012     byte    %31.0g     asian_d2012
+                                            * Asian-detailed (2012-on)
+pi              byte    %8.0g      noyes    * Pacific Islander only
+pi_d2005        byte    %37.0g     pi_d2005 * Pacific Islander-detailed
+                                                (2005-2011)
+pi_d2012        byte    %37.0g     pi_d2012 * Pacific Islander-detailed
+                                                (2012-present)
+aapisub         byte    %8.0g      aapisub  * AAPI subgroup
+aapisub2_2005   byte    %37.0g     aapisub2_2005
+                                            * AAPI subgroup detailed
+                                                (2005-2011)
+aapisub2_2012   byte    %37.0g     aapisub2_2012
+                                            * AAPI subgroup detailed
+                                                (2012-on)
+hisp            byte    %33.0g     hisp     * Hispanic, Detailed
+racaian         byte    %8.0g      noyes    * American Indian
+racasn          byte    %8.0g      noyes    * Asian
+racblk          byte    %8.0g      noyes    * Black
+racnhpi         byte    %8.0g      noyes    * Native Hawaiian, Pacific
+                                                Islander
+racnum          byte    %8.0g               * Number of races
+racwht          byte    %8.0g      noyes    * White
+anc             byte    %12.0g     anc      * Ancestry recode
+anc1p05         byte    %26.0g     anc1p05  * Ancestry detailed-1st entry
+                                                (2005-2007)
+anc2p05         byte    %26.0g     anc2p05  * Ancestry detailed-2nd entry
+                                                (2005-2007)
+anc1p08         byte    %26.0g     anc1p08  * Ancestry detailed-1st entry
+                                                (2008-2011)
+anc2p08         byte    %26.0g     anc2p08  * Ancestry detailed-2nd entry
+                                                (2008-2011)
+anc1p12         byte    %26.0g     anc1p12  * Ancestry detailed-1st entry
+                                                (2012-2016)
+anc2p12         byte    %26.0g     anc2p12  * Ancestry detailed-2nd entry
+                                                (2012-2016)
+anc1p17         byte    %26.0g     anc1p17  * Ancestry detailed-1st entry
+                                                (2017 only)
+anc2p17         byte    %26.0g     anc2p17  * Ancestry Detailed-2nd entry
+                                                (2017 only)
+anc1p18         int     %46.0g     anc1p18  * Ancestry detailed-1st entry
+                                                (2018-2019)
+anc2p18         int     %46.0g     anc2p18  * Ancestry detailed-2nd entry
+                                                (2018-2019)
+forborn         byte    %8.0g      noyes    * Foreign-born
+citizen         byte    %8.0g      noyes    * US citizen
+citstat         byte    %22.0g     citstat  * US citizenship status
+yoep            int     %8.0g               * Year of Entry
+yoep05          byte    %15.0g     yoep05   * Year of Entry (2005-2011
+                                                categories)
+yoep12          byte    %15.0g     yoep12   * Year of Entry (2012-2016
+                                                categories)
+yoep17          byte    %15.0g     yoep17   * Year of Entry (2017
+                                                categories)
+yoep18          int     %15.0g     yoep18   * Year of Entry (2018-2019
+                                                categories)
+citwp           int     %8.0g               * Year of naturalization
+citwp08         byte    %15.0g     citwp08  * Year of naturalization
+                                                (2008-2011 categories)
+citwp12         byte    %15.0g     citwp12  * Year of naturalization
+                                                (2012-2016 categories)
+citwp17         byte    %15.0g     citwp17  * Year of naturalization
+                                                (2017-2018 categories)
+waob            byte    %22.0g     waob     * World area of birth
+                                                (2005-2017 categories)
+waob18          byte    %22.0g     waob18   * World area of birth (2018
+                                                categories)
+pobp05          byte    %47.0g     pobp05   * Place of birth (2005-2008)
+pobp09          byte    %47.0g     pobp09   * Place of birth (2009-2011)
+pobp12          byte    %47.0g     pobp12   * Place of birth (2012-2016)
+pobp17          int     %47.0g     pobp17   * Place of birth (2017-2019)
+nop             byte    %42.0g     nop      * Nativity of parent
+forbornm        byte    %8.0g      forbornm * Foreign-born mother
+forbornf        byte    %8.0g      forbornf * Foreign-born father
+vps             byte    %33.0g     vps      * Veteran Period of Service
+veteran         byte    %8.0g      noyes    * Veteran
+mar             byte    %13.0g     mar      * Marital status
+married         byte    %8.0g      noyes    * Married
+rel05           byte    %18.0g     rel05    * Relationship (2005-on)
+rel08           byte    %29.0g     rel08    * Relationship (2008-on)
+rel19           byte    %32.0g     rel19    * Relationship (2019-on)
+sfr             byte    %35.0g     sfr      * Subfamily relationship
+psf             byte    %8.0g      noyes    * Presence of subfamilies in
+                                                HH
+hht             byte    %37.0g     hht      * Household/family type
+hhtdet          byte    %95.0g     hhtdet   * Household/family type,
+                                                detailed (includes
+                                                cohabiting)
+partner         byte    %34.0g     partner  * Unmarried partner household
+perhh           byte    %8.0g               * Number of persons in
+                                                household
+hh60            byte    %8.0g      hh60     * Presence of HH members age
+                                                60+
+hhsenior        byte    %8.0g      hhsenior * Presence of HH members age
+                                                65+
+wif             byte    %8.0g      wif      * Number of workers in family
+fes             byte    %63.0g     fes      * Family and Employment
+                                                Status
+wkexrel         byte    %50.0g     wkexrel  * Work experience of
+                                                householder, spouse
+esp             byte    %39.0g     esp      * Employment status of
+                                                parents
+perfam          byte    %8.0g               * Number of persons in family
+noc             byte    %8.0g               * Number of own children
+hhoc            byte    %36.0g     hhoc     * Presence and age of own
+                                                children
+nfchild         byte    %8.0g               * Number of related children
+hhchild         byte    %8.0g      noyes    * HH members under 18
+nhhchild        byte    %9.0g               * Number of HH members under
+                                                18
+hhrc            byte    %40.0g     hhrc     * Presence and age of related
+                                                children
+hhgc            byte    %8.0g      noyes    * Grandchild living in HH
+child           byte    %8.0g      noyes    * Child indicator
+nr              byte    %8.0g      noyes    * Presence of nonrelative
+fer             byte    %8.0g      noyes    * Gave birth within past year
+multgen         byte    %8.0g      noyes    * Multigenerational household
+npp             byte    %8.0g      noyes    * Grandparent headed
+                                                household, no parent
+                                                present
+gcr             byte    %8.0g      noyes    * Responsible for
+                                                grandchildren
+ssmc            byte    %8.0g      noyes    * Same-sex married couple
+cplt            byte    %42.0g     cplt     * Couple type
+lfstat          byte    %12.0g     lfstat   * Labor-force status
+esr             byte    %45.0g     esr      * Raw labor-force status
+milstat         byte    %59.0g     milstat  * Military service
+mil_ly          byte    %8.0g      noyes    * Military status last 12
+                                                months
+civnonmil       byte    %8.0g      noyes    * Civilian
+                                                noninstitutionalized
+                                                population
+wkwcon          byte    %9.0g               * Weeks worked during past 12
+                                                months (continuous
+                                                variable)
+wkslyr          byte    %8.0g      wkslyr   * Weeks worked during past 12
+                                                months (bracket variable)
+hrslyr          byte    %8.0g               * Usual hours worked per week
+                                                past 12 months
+emp1014         byte    %8.0g      noyes    * Employees, worked at least
+                                                14 wks/yr, 10hrs/wk
+clslyr          byte    %30.0g     clslyr   * Class of Worker
+military        byte    %8.0g      noyes    * Active Duty Military,
+                                                Current
+ftptlyr         byte    %20.0g     ftptlyr  * Full/part-time & year
+ftfy            byte    %8.0g      noyes    * Full-time, full year
+ptpy            byte    %8.0g      noyes    * Part-time, part year
+nowork          byte    %8.0g      nowork   * No Work Hours/Weeks
+wkl             byte    %30.0g     wkl      * When last worked
+nwlk            byte    %8.0g      noyes    * Looking for work
+nwab            byte    %8.0g      noyes    * Temporary absence from work
+nwla            byte    %8.0g      noyes    * On layoff from work
+nwav            byte    %19.0g     nwav     * Available for Work
+selfemp         byte    %8.0g      noyes    * Unincorporated
+                                                self-employed
+selfinc         byte    %8.0g      noyes    * Incorporated self-employed
+pubsect         byte    %8.0g      noyes    * Public sector
+pubfed          byte    %8.0g      noyes    * Federal employee
+pubst           byte    %8.0g      noyes    * State employee
+publoc          byte    %8.0g      noyes    * Local employee
+nonprof         byte    %8.0g      noyes    * Non-Profit
+powsp00         byte    %68.0g     powsp00  * Place of Work - State (2000
+                                                Census boundaries)
+powsp10         int     %86.0g     powsp10  * Place of Work - State (2010
+                                                Census boundaries)
+powpuma00       byte    %9.0g      powpuma00
+                                            * Place of Work PUMA (2000
+                                                Census boundaries)
+powpuma10       float   %9.0g      powpuma10
+                                            * Place of Work PUMA (2010
+                                                Census boundaries)
+jwmnp           int     %8.0g               * Travel time to work (mins)
+jwrip           byte    %28.0g     jwrip    * Vehicle occupancy (to work)
+jwtr            byte    %46.0g     jwtr     * Means of transportation to
+                                                work
+jwtrns          byte    %37.0g     jwtrns   * Means of transportation to
+                                                work
+pubtran         byte    %8.0g      noyes    * Uses public transit to
+                                                commute to work
+jwap            byte    %24.0g     jwap     * Time of arrival at work (hr
+                                                & min)
+jwdp            byte    %24.0g     jwdp     * Time of departure for work
+                                                (hr & min)
+educ            byte    %12.0g     educ     * Education level
+educ05          byte    %37.0g     educ05   * Education level, detailed,
+                                                2005-2007
+educ08          byte    %44.0g     educ08   * Education level, post-2007
+fod1p09         byte    %58.0g     fod1p09  * Field of degree, 1st entry
+fod2p09         byte    %58.0g     fod2p09  * Field of degree, 2nd entry
+fod1p10         byte    %58.0g     fod1p10  * Field of degree, 1st entry
+fod2p10         byte    %58.0g     fod2p10  * Field of degree, 2nd entry
+fod1p11         int     %58.0g     fod1p11  * Field of degree, 1st entry
+fod2p11         int     %58.0g     fod2p11  * Field of degree, 2nd entry
+sciengp         byte    %8.0g      noyes    * Field of degree - Science
+                                                and Engineering flag
+sciengrlp       byte    %8.0g      noyes    * Field of degree - Science
+                                                and Engineering Related
+                                                flag
+sch             byte    %38.0g     noyes    * School enrollment
+enrolled        byte    %8.0g               * Enrolled in school
+grade           byte    %21.0g     grade    * Grade level attending
+grade05         byte    %31.0g     grade05  * Grade level attending,
+                                                2005-2007
+grade08         byte    %31.0g     grade08  * Grade level attending,
+                                                2008-on
+ind3d_05        byte    %126.0g    ind3d_05 * Industry, 3-digit
+                                                (2005-2007)
+ind3d_08        byte    %126.0g    ind3d_08 * Industry, 3-digit (2008
+                                                only)
+ind3d_09        byte    %126.0g    ind3d_09 * Industry, 3-digit
+                                                (2009-2011)
+ind3d_12        byte    %126.0g    ind3d_12 * Industry, 3-digit (2012
+                                                only)
+ind3d_13        byte    %126.0g    ind3d_13 * Industry, 3-digit
+                                                (2013-2017)
+ind3d_18        int     %143.0g    ind3d_18 * Industry, 3-digit (2018-on)
+ind_naics05     str1    %9s                 * NAICS Industry Code
+                                                (2005-2007)
+ind_naics08     str1    %9s                 * NAICS Industry Code (2008
+                                                only)
+ind_naics09     str1    %9s                 * NAICS Industry Code
+                                                (2009-2011)
+ind_naics12     byte    %133.0g    ind_naics12
+                                            * NAICS Industry Code (2012
+                                                only)
+ind_naics13     str1    %9s                 * NAICS Industry Code
+                                                (2013-2017)
+ind_naics18     long    %148.0g    ind_naics18
+                                            * NAICS Industry Code
+                                                (2018-on)
+occp05          byte    %140.0g    occp05   * Occupation recode
+                                                (2005-2009)
+occp10          byte    %140.0g    occp10   * Occupation recode
+                                                (2010-2011)
+occp12          byte    %125.0g    occp12   * Occupation recode
+                                                (2012-2017)
+occp18          int     %118.0g    occp18   * Occupation recode (2018-on)
+socp05          byte    %8.0g      socp05   * SOC Occupation Code (2005
+                                                only)
+socp06          byte    %8.0g      socp06   * SOC Occupation Code
+                                                (2006-2009)
+socp10          byte    %8.0g      socp10   * SOC Occupation Code
+                                                (2010-2011)
+socp12          byte    %8.0g      socp12   * SOC Occupation Code
+                                                (2012-2017)
+socp18          long    %105.0g    socp18   * SOC Occupation Code
+                                                (2018-on)
+adj             float   %9.0g               * Adjustment factor - Income
+incp_all_adj    float   %9.0g               * Total person's income adj
+fl_incp_all     byte    %9.0g      noyes    * Total income (incl
+                                                unearned) allocation flag
+incp_ern_adj    float   %9.0g               * Total person's earnings adj
+fl_incp_ern     byte    %9.0g      noyes    * Total income (excl
+                                                unearned) allocation flag
+incp_wag_adj    float   %9.0g               * Wage or salary income adj
+fl_incp_wag     byte    %9.0g      noyes    * Wage and salary income
+                                                allocation flag
+hrearn_adj      float   %9.0g               * Hourly earnings adj
+hrwage_adj      float   %9.0g               * Hourly wage adj
+incp_se_adj     float   %9.0g               * Income from self-employment
+                                                adj
+fl_incp_se      byte    %9.0g      noyes    * Self-employment income
+                                                allocation flag
+incp_paw_adj    int     %9.0g               * Public assistance income
+                                                adj
+fl_incp_paw     byte    %9.0g      noyes    * Public assistance income
+                                                allocation flag
+incp_ss_adj     float   %9.0g               * Social Security Income adj
+fl_incp_ss      byte    %9.0g      noyes    * Social Security income
+                                                allocation flag
+incp_ssi_adj    int     %9.0g               * Supplementary Security
+                                                Income adj
+fl_incp_ssi     byte    %9.0g      noyes    * Supplemental Security
+                                                income allocation flag
+incp_ret_adj    float   %9.0g               * Retirement income adj
+fl_incp_ret     byte    %9.0g      noyes    * Retirement income
+                                                allocation flag
+incp_int_adj    float   %9.0g               * Income from int, div, net
+                                                rentals adj
+fl_incp_int     byte    %9.0g      noyes    * Interest, dividend, and net
+                                                rental income allocation
+                                                flag
+incp_oth_adj    float   %9.0g               * All other income adj
+fl_incp_oth     byte    %9.0g      noyes    * Other income allocation
+                                                flag
+incp_uer_adj    float   %9.0g               * Income from all unearned
+                                                sources adj
+incf_all_adj    float   %9.0g               * Total family income adj
+fl_incf_all     byte    %9.0g      noyes    * Total income (incl
+                                                unearned) allocation flag
+inch_all_adj    float   %9.0g               * Total household income adj
+fl_inch_all     byte    %9.0g      noyes    * Total income (incl
+                                                unearned) allocation flag
+inch_fs_adj     byte    %9.0g               * Food stamp amount, yearly
+                                                adj
+foodst          byte    %8.0g      noyes    * Food stamp recipiency
+rincp_all_adj   float   %9.0g               * Total Person's income adj
+rincp_ern_adj   float   %9.0g               * Total Person's income,
+                                                excluding unearned adj
+rincp_wag_adj   float   %9.0g               * Income from wage and salary
+                                                adj
+rhrearn_adj     float   %9.0g               * Hourly earnings adj
+rhrwage_adj     float   %9.0g               * Hourly wage adj
+rincp_se_adj    float   %9.0g               * Income from self-employment
+                                                adj
+rincp_paw_adj   int     %9.0g               * Income from public
+                                                assistance adj
+rincp_ss_adj    float   %9.0g               * Income from social security
+                                                adj
+rincp_ssi_adj   int     %9.0g               * Income from supplm.
+                                                security adj
+rincp_ret_adj   float   %9.0g               * Income from retirement
+                                                funds adj
+rincp_int_adj   float   %9.0g               * Income from int, div, net
+                                                rentals adj
+rincp_oth_adj   float   %9.0g               * Income from other sources
+                                                adj
+rincp_uer_adj   float   %9.0g               * Income from all unearned
+                                                sources adj
+rincf_all_adj   float   %9.0g               * Total family income adj
+rinch_all_adj   float   %9.0g               * Total household income adj
+rinch_fs_adj    byte    %9.0g               * HH income from food stamps
+                                                adj
+povpip          int     %8.0g               * Percent of poverty status
+poor            byte    %8.0g      noyes    * In poverty (below poverty
+                                                line)
+pov200          byte    %8.0g      noyes    * Low income (<200% poverty
+                                                line)
+hins            byte    %8.0g      noyes    * Health insurance (binary)
+hipriv          byte    %8.0g      noyes    * Health insurance, private
+hiep            byte    %8.0g      noyes    * Health insurance, current
+                                                or former employer/union
+hipind          byte    %8.0g      noyes    * Health insurance, purchased
+                                                directly
+himrks          byte    %51.0g     himrks   * Health insurance, subidized
+                                                marketplace coverage
+himcaid         byte    %8.0g      noyes    * Health insurance, Medicaid
+himcare         byte    %9.0g      noyes    * Heath insurance, Medicare
+hiothpub        byte    %9.0g      noyes    * Health insurance, TRICARE
+                                                or military
+hiva            byte    %8.0g      noyes    * Health insurance, VA
+hiihs           byte    %8.0g      noyes    * Health insurance, Indian
+                                                Health Service
+hipub           byte    %8.0g      noyes    * Health insurance, public
+hins_imputed    byte    %8.0g      noyes    * Health insurance coverage,
+                                                imputed
+hiep_imputed    byte    %8.0g      noyes    * Health insurance, current
+                                                or former employer/union,
+                                                imputed
+hipind_imputed  byte    %8.0g      noyes    * Health insurance, purchased
+                                                directly, imputed
+himrks_imputed  byte    %8.0g      noyes    * Health insurance, purchased
+                                                directly, imputed
+himcaid_imputed byte    %8.0g      noyes    * Health insurance, Medicaid,
+                                                imputed
+himcare_imputed byte    %8.0g      noyes    * Health insurance, Medicare,
+                                                imputed
+hiothpub_imputed
+                byte    %8.0g      noyes    * Health insurance, TRICARE
+                                                or military, imputed
+hiva_imputed    byte    %8.0g      noyes    * Health insurance, VA,
+                                                imputed
+hiihs_imputed   byte    %8.0g      noyes    * Health insurance, Indian
+                                                Health Service, imputed
+hipub_imputed   byte    %8.0g      noyes    * Health insurance, public,
+                                                imputed
+hipriv_imputed  byte    %8.0g      noyes    * Health insurance, private,
+                                                imputed
+dis             byte    %8.0g      noyes    * With a disability
+dself           byte    %8.0g      noyes    * Self-care difficulty
+dhear           byte    %8.0g      noyes    * Hearing difficulty
+dvis            byte    %8.0g      noyes    * Vision difficulty
+dind            byte    %8.0g      noyes    * Independent living
+                                                difficulty
+damb            byte    %8.0g      noyes    * Ambulatory difficulty
+dcog            byte    %8.0g      noyes    * Cognitive difficulty
+drat            byte    %26.0g     drat     * Veteran Service Disability
+                                                Rating
+ddrs05          byte    %8.0g      noyes    * Difficulty dressing
+                                                (2005-2007)
+deye05          byte    %8.0g      noyes    * Vision or hearing
+                                                difficulty (2005-2007)
+dout05          byte    %8.0g      noyes    * Difficulty going out
+                                                (2005-2007)
+dphy05          byte    %8.0g      noyes    * Physical difficulty
+                                                (2005-2007)
+drem05          byte    %8.0g      noyes    * Difficulty remembering
+                                                (2005=2007)
+dwrk05          byte    %8.0g      noyes    * Difficulty working
+                                                (2005-2007)
+eng             byte    %10.0g     eng      * Ability to speak English
+lanx            byte    %8.0g      noyes    * Language other than English
+                                                spoken at home
+hhl             byte    %34.0g     hhl      * Household language
+lngi            byte    %8.0g      noyes    * Limited English speaking
+                                                household
+lanp05          byte    %9.0g      lanp05   * Language spoken at home
+                                                (2005-2015)
+lanp16          byte    %9.0g      lanp16   * Language spoken at home
+                                                (2016 only)
+lanp17          int     %42.0g     lanp17   * Language spoken at home
+                                                (2017-2019)
+hhlanp16        byte    %9.0g      hhlanp16 * Detailed household language
+                                                (2016 only)
+hhlanp17        int     %42.0g     hhlanp17 * Detailed household language
+                                                (2017-2019)
+mig             byte    %40.0g     mig      * Mobility status (lived here
+                                                1 year ago)
+mover           byte    %8.0g      noyes    * Moved since last year
+migsp05         byte    %8.0g      migsp05  * Migration recode
+                                                (2005-2011)
+migsp12         byte    %8.0g      migsp12  * Migration recode
+                                                (2012-2016)
+migsp17         int     %59.0g     migsp17  * Migration recode
+                                                (2017-2019)
+migpuma00       byte    %9.0g      migpuma00
+                                            * Migration PUMA (2000 census
+                                                boundaries)
+migpuma10       float   %9.0g      migpuma10
+                                            * Migration PUMA (2010 census
+                                                boundaries)
+fmigp           byte    %8.0g      noyes    * Mobility status allocation
+                                                flag
+fmigsp          byte    %8.0g      noyes    * Migration state allocation
+                                                flag
+                                            * indicated variables have no
+> tes
+-------------------------------------------------------------------------
+Sorted by: serialno  sporder
+
+. log close
+      name:  <unnamed>
+       log:  /Users/glooper/Dropbox (CEPR)/Data/CEPRdata/ACS/ceprdata/var
+> desc/cepr_acs_2019_varlist.log
+  log type:  text
+ closed on:  26 Mar 2021, 18:12:03
+-------------------------------------------------------------------------
