@@ -1,11 +1,14 @@
--------------------------------------------------------------------------
-      name:  <unnamed>
-       log:  /Users/glooper/Dropbox (CEPR)/Data/CEPRdata/ACS/ceprdata/var
-> desc/cepr_acs_2019_varlabels.log
-  log type:  text
- opened on:  26 Mar 2021, 18:12:03
+Value labels for variables in CEPR ACS 2019 1-year PUMS extract, Version 1.6
+Last update: March 2021
 
-. label list
+-------------------------------------------------------------------------
+Contains data from cepr_acs_2019.dta
+  obs:     3,359,704                          CEPR ACS, Version 1.6,
+                                                2019
+ vars:           509                          2 Mar 2021 21:26
+ size: 2,741,518,464                          
+-------------------------------------------------------------------------
+
 resmode:
            1 Mail
            2 CATI/CAPI
@@ -11785,10 +11788,24 @@ migsp17:
          501 Australia
          555 Other US Island Areas, Oceania, n.s. & at Sea
 
-. log close
-      name:  <unnamed>
-       log:  /Users/glooper/Dropbox (CEPR)/Data/CEPRdata/ACS/ceprdata/var
-> desc/cepr_acs_2019_varlabels.log
-  log type:  text
- closed on:  26 Mar 2021, 18:12:03
+-------------------------------------------------------------------------
+
+Copyright 2021 CEPR, John Schmitt, Hye Jin Rho, Janelle Jones, Cherrie Bucknor,
+Brian Dew, Hayley Brown
+
+This file and all programs referenced in it are free software. You can redistribute 
+the program or modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2 of the
+License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307
+USA.
+
 -------------------------------------------------------------------------
